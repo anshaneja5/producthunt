@@ -1,0 +1,32 @@
+{
+  "name": "product-hunt-scraper",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "product-hunt-scraper": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "author": "Ansh Aneja",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-writer": "^1.6.0",
+    "puppeteer": "^22.12.1"
+  },
+  "keywords": [
+    "scraper",
+    "producthunt",
+    "product-hunt",
+    "cli",
+    "data",
+    "data-scraper",
+    "product-hunt-scraper",
+    "product-hunt-data",
+    "trending-products",
+    "startup-products"
+  ]
+}
